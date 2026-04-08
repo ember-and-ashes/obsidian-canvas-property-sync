@@ -25,7 +25,4 @@ jobs:
           zip -r canvas-property-sync.zip canvas-property-sync
       - uses: softprops/action-gh-release@v2
         with:
-          files: |
-            main.js
-            manifest.json
-            canvas-property-sync.zip
+          files: canvas-property-sync.zip
